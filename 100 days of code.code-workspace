@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../GitHub/100 days of code"
+		},
+		{
+			"path": ".vscode"
+		},
+		{
+			"path": "build"
+		}
+	],
+	"settings": {}
+}
