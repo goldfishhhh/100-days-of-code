@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Q38: Write a program to find the sum of digits of a number.
 
 /*
@@ -27,4 +28,35 @@ int main()
 
     printf("Sum of digits: %d\n", sum);
     return 0;
+=======
+//Q38: Write a program to find the sum of digits of a number.
+
+/*
+Sample Test Cases:
+Input 1:
+123
+Output 1:
+6
+
+Input 2:
+999
+Output 2:
+27
+
+*/
+#include <stdio.h>
+int main()
+{
+    int num, sum = 0;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    while (num != 0) {
+        sum += num % 10; // Add the last digit to sum
+        num /= 10;       // Remove the last digit
+    }
+
+    printf("Sum of digits: %d\n", sum);
+    return 0;
+>>>>>>> 69e526b84749546030633f3aa2265691776a03a5
 }
