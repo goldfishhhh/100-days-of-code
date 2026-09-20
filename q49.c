@@ -17,4 +17,8 @@ Output 1:
 12345
 
 */
+#include <stdio.h>
+int main()
+{
     
+}
