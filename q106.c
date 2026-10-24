@@ -4,7 +4,7 @@ N.B:
 - Print the output for each element in a comma separated fashion.
 - Do not use Stack, use brute force approach (nested loop) to solve.
 
-/*
+//
 Sample Test Cases:
 Input 1:
 arr = [1, 3, 2, 4]
